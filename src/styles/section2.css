@@ -1,0 +1,26 @@
+.whoweare__container {
+  width: 100%;
+  height: 284px;
+  background-color: var(--greyColor0);
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.whoweare__container > h2 {
+  width: 285px;
+  font-size: 32px;
+  color: var(--greyColor6);
+  font-weight: var(--fontWeightTitle1);
+  line-height: 45px;
+}
+
+.whoweare__container > span > p {
+  width: 611px;
+  height: 120px;
+  font-size: 20px;
+  font-weight: var(--fontWeightTitle2);
+  line-height: 30px;
+  color: var(--greyColor4);
+}

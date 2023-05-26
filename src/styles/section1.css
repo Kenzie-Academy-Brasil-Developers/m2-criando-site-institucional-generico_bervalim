@@ -1,0 +1,46 @@
+.main__aboutUs {
+  margin-top: 20px;
+  width: 100%;
+  height: 781px;
+  background-color: var(--greyColor1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.main__title {
+  font-size: 52px;
+  color: #fff;
+  font-weight: var(--fontWeightTitle1);
+}
+
+#span__title {
+  color: var(--brandColor1);
+}
+
+.main__text {
+  color: var(--greyColor3);
+  font-weight: var(--fontWeightText);
+  font-size: 20px;
+  width: 770px;
+  height: 60px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.main__button {
+  margin-top: 40px;
+  width: 133px;
+  height: 60px;
+  background-color: var(--brandColor1);
+  border: 1px solid var(--brandColor1);
+  text-align: center;
+  color: var(--greyColor5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: var(--fontWeightTitle1);
+  cursor: pointer;
+}

@@ -1,0 +1,48 @@
+/* Criando as variáveis do projeto */
+:root {
+  --brandColor1: #4c6ef5;
+  --brandColor2: #364fc7;
+  --greyColor0: #191c1f;
+  --greyColor1: #212529;
+  --greyColor2: #343a40;
+  --greyColor3: #adb5bd;
+  --greyColor4: #ced4da;
+  --greyColor5: #f8f9fa;
+  --greyColor6: #edf2ff;
+  --fontWeightTitle1: 600;
+  --fontWeightTitle2: 400;
+}
+
+.header__container {
+  width: 100vw;
+  height: 100px;
+  background-color: var(--greyColor0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 3px solid var(--brandColor1);
+}
+
+.header__container > p {
+  margin-left: 100px;
+  color: var(--greyColor5);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.header__container > button {
+  margin-right: 100px;
+  width: 241px;
+  height: 60px;
+  border: 1px solid var(--greyColor6);
+  background-color: var(--greyColor0);
+  color: var(--greyColor6);
+  font-size: 14px;
+  font-weight: var(--fontWeightTitle2);
+  text-align: center;
+  cursor: pointer;
+  font-style: normal;
+}
