@@ -44,3 +44,9 @@
   font-weight: var(--fontWeightTitle1);
   cursor: pointer;
 }
+
+.main__button:hover {
+  background-color: var(--brandColor2);
+  border: 1px solid var(--brandColor2);
+  cursor: pointer;
+}

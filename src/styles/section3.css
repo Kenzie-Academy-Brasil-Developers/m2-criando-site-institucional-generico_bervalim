@@ -12,7 +12,7 @@
 .question__frequently {
   display: flex;
   flex-direction: column;
-  width: 473px;
+  width: 373px;
   height: 271px;
   align-items: flex-start;
   gap: 33px;
@@ -39,7 +39,7 @@
   margin-bottom: 20px;
 }
 
-.question__frequently > span {
+.button__container--modified {
   width: 221px;
   height: 80px;
   display: flex;

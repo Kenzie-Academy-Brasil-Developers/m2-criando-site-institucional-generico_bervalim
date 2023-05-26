@@ -1,0 +1,15 @@
+.footer__container {
+  width: 100%;
+  background-color: var(--greyColor0);
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__container > h3 {
+  color: var(--greyColor5);
+  font-size: 20px;
+  font-weight: 500;
+}

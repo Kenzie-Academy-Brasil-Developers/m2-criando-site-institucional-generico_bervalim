@@ -14,15 +14,19 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./src/styles/reset.css" />
     <link rel="stylesheet" href="./src/styles/globalStyles.css" />
+    <link rel="stylesheet" href="./src/styles/header.css" />
     <link rel="stylesheet" href="./src/styles/section1.css" />
     <link rel="stylesheet" href="./src/styles/section2.css" />
     <link rel="stylesheet" href="./src/styles/section3.css" />
+    <link rel="stylesheet" href="./src/styles/section4.css" />
+    <link rel="stylesheet" href="./src/styles/footer.css" />
+    <link rel="stylesheet" href="./src/styles/modal.css" />
     <title>Página Institucional Genérica</title>
   </head>
   <body>
     <header class="header__container">
       <p>Generic Course</p>
-      <button>Entrar para a próxima turma</button>
+      <button class="button__container">Entrar para a próxima turma</button>
     </header>
     <main class="main__container">
       <div class="main__aboutUs">
@@ -37,9 +41,9 @@
             iure temporibus nam eligendi!
           </p>
         </div>
-        <span class="main__button"> Sobre nós </span>
+        <a href="#aboutUs"><span class="main__button"> Sobre nós </span></a>
       </div>
-      <div class="whoweare__container">
+      <div class="whoweare__container" id="aboutUs">
         <h2>Quem somos nós?</h2>
         <span>
           <p>
@@ -58,7 +62,9 @@
             dolorem veritatis veniam fuga. Itaque error quae et magni maxime ab
             quibusdam enim, animi dicta. Illo odio eum ex quo at?
           </p>
-          <span><p>Entrar para próxima turma</p></span>
+          <span class="button__container button__container--modified"
+            ><p>Entrar para próxima turma</p></span
+          >
         </div>
         <div class="questions__faq">
           <span class="specific__faq">
@@ -99,16 +105,16 @@
           </span>
         </div>
       </section>
-      <section>
-        <div>
+      <section class="socialProof__container">
+        <div class="socialProof__testimony">
           <ul>
             <li>
-              <div>
-                <span>
+              <div class="sociaProof__student">
+                <span class="socialProof__content">
                   <h3>Júlia Lima</h3>
                   <p>Aluna na turma 2019</p>
                 </span>
-                <p>
+                <p class="socialProof__description">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
                   veritatis nisi distinctio eaque, dignissimos deleniti nesciunt
                   molestiae incidunt ex id corporis saepe dolore et culpa,
@@ -117,26 +123,26 @@
               </div>
             </li>
             <li>
-              <div>
-                <span>
+              <div class="sociaProof__student">
+                <span class="socialProof__content">
                   <h3>Carlos Silva</h3>
                   <p>Aluno na turma 2020</p>
                 </span>
-                <p>
+                <p class="socialProof__description">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-                  maxime dolores vitae adipisci repudiandae ipsa cumque sint
+                  maximpe dolores vitae adipisci repudiandae ipsa cumque sint
                   nemo qui mollitia consequatur quo numquam, animi deserunt
                   placeat. Minima veritatis deleniti velit.
                 </p>
               </div>
             </li>
             <li>
-              <div>
-                <span>
+              <div class="sociaProof__student">
+                <span class="socialProof__content">
                   <h3>Camila Souza</h3>
                   <p>Aluna na turma 2019</p>
                 </span>
-                <p>
+                <p class="socialProof__description">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Facere, a veritatis, nostrum culpa accusantium libero deserunt
                   quasi sit quaerat doloribus commodi dolor accusamus deleniti
@@ -145,12 +151,12 @@
               </div>
             </li>
             <li>
-              <div>
-                <span>
+              <div class="sociaProof__student">
+                <span class="socialProof__content">
                   <h3>Matheus Erick</h3>
                   <p>Aluno na turma 2018</p>
                 </span>
-                <p>
+                <p class="socialProof__description">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Soluta, laboriosam aliquam cum iste, nihil, culpa quibusdam
                   architecto necessitatibus modi deserunt dolorem nemo.
@@ -161,7 +167,7 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div class="socialProof__comments">
           <h2>O que nossos alunos comentam?</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat,
@@ -172,9 +178,26 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer__container">
       <h3>Generic Course</h3>
     </footer>
+    <dialog class="modal__controller">
+      <div class="modal__container">
+        <div class="modal__closure">
+          <h3 class="modal__title">Cadastro</h3>
+          <button class="modal__close">X</button>
+        </div>
+        <p class="modal__text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s
+        </p>
+        <input class="modal__input" type="text" placeholder="Digitar email" />
+        <button class="modal__classroom">
+          Entrar na lista para próxima turma
+        </button>
+      </div>
+    </dialog>
     <script src="./src/scripts/script.js"></script>
   </body>
 </html>
