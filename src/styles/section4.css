@@ -6,22 +6,22 @@
   justify-content: space-between;
   align-items: flex-start;
   gap: 30px;
-  padding: 30px 60px;
+  padding: 30px 100px;
 }
 
 .socialProof__testimony {
-  width: 746px;
+  width: 70%;
   height: 840px;
 }
 .sociaProof__student {
-  width: 746px;
+  width: 100%;
   height: 145px;
   display: flex;
   gap: 20px;
 }
 
 .socialProof__content {
-  width: 181px;
+  width: 30%;
   height: 77px;
   display: flex;
   flex-direction: column;
@@ -29,7 +29,6 @@
 }
 
 .sociaProof__student > span > h3 {
-  width: 190px;
   height: 42px;
   font-weight: 500;
   font-size: 28px;
@@ -38,7 +37,6 @@
 }
 
 .sociaProof__student > span > p {
-  width: 181px;
   height: 27px;
   font-weight: var(--fontWeightTitle2);
   color: var(--greyColor3);
@@ -48,14 +46,14 @@
 .socialProof__description {
   color: var(--greyColor5);
   line-height: 27px;
-  width: 483px;
+  width: 60%;
   height: 135px;
   font-weight: var(--fontWeightTitle2);
 }
 
 .socialProof__comments {
-  width: 446px;
-  height: 420px;
+  width: 35%;
+
   padding: 80px 52px;
   display: flex;
   flex-direction: column;
@@ -67,14 +65,11 @@
 .socialProof__comments > h2 {
   font-size: 28px;
   font-weight: var(--fontWeightTitle1);
-  width: 320px;
   line-height: 35px;
   color: var(--greyColor5);
 }
 
 .socialProof__comments > p {
-  width: 280px;
-  height: 135px;
   font-weight: var(--fontWeightTitle2);
   line-height: 22px;
   font-size: 18px;
